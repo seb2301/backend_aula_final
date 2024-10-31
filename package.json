@@ -1,12 +1,21 @@
 {
-  "name": "backend_aula_final",
+  "name": "aulas-2024-jp-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Aulas para o JP referente a Backend em NodeJS",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "jest": "^29.7.0",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
